@@ -1,0 +1,36 @@
+.header {
+	background-color: #f7bf50;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.header__navigations {
+	display: flex;
+	align-items: center;
+}
+
+.header__link {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #271801;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.header__home {
+	display: flex;
+}
+
+.header__login {
+	padding: 4px 18px;
+	background-color: #271801;
+	border-radius: 5px;
+	color: #f7bf50;
+}
+
+.header__logo {
+	width: 160px;
+	height: 60px;
+	object-fit: cover;
+}
